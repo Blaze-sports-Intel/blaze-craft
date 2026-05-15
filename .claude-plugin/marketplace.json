@@ -2,20 +2,28 @@
   "$schema": "https://code.claude.com/schemas/marketplace-v1.json",
   "name": "blaze-craft-marketplace",
   "version": "1.0.0",
-  "description": "Two-skill engineering pack for Claude Code: api-craft (wire contract design) + mobile-craft (mobile orchestration and decision-making).",
+  "description": "Public marketplace for blaze-craft — two-skill engineering pack (api-craft + mobile-craft) plus future companions.",
   "owner": {
-    "name": "Blaze Sports Intel",
+    "name": "Austin Humphrey",
+    "email": "humphrey.austin20@gmail.com",
     "url": "https://github.com/Blaze-sports-Intel"
   },
   "plugins": [
     {
       "name": "blaze-craft",
-      "description": "API contract design and mobile orchestration. api-craft owns wire contracts (REST/GraphQL/RPC choice, versioning, error envelopes, pagination, idempotency, rate limiting, webhook contracts, SDK ergonomics, OpenAPI). mobile-craft owns mobile decision and orchestration (stack-choice phase, cross-runtime patterns, cross-store shipping discipline). Hands off platform implementation to ios-craft, react-native-foundations, expo, and fullstack-engineer.",
+      "version": "1.0.0",
+      "description": "Two-skill engineering pack: api-craft (wire contract design — REST/GraphQL/RPC choice, versioning, error envelopes, pagination, idempotency, rate limiting, webhooks, SDK ergonomics, OpenAPI) + mobile-craft (mobile orchestration and decision-making — stack-choice phase, cross-runtime patterns for offline/push/deep-linking, cross-store shipping discipline). Sits above implementation specialists: hands off API handlers to fullstack-engineer / cloudflare, hands off Apple-platform work to ios-craft, RN to react-native-foundations, Expo to expo. Includes 2 cross-cutting agents (api-contract-reviewer, mobile-stack-decider) and 7 slash commands.",
+      "category": "engineering",
+      "author": {
+        "name": "Austin Humphrey",
+        "email": "humphrey.austin20@gmail.com"
+      },
       "source": {
-        "type": "git-subdir",
-        "url": "https://github.com/Blaze-sports-Intel/blaze-craft",
+        "source": "git-subdir",
+        "url": "https://github.com/Blaze-sports-Intel/blaze-craft.git",
         "path": "plugins/blaze-craft"
-      }
+      },
+      "homepage": "https://github.com/Blaze-sports-Intel/blaze-craft"
     }
   ]
 }

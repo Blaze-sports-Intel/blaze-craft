@@ -1,0 +1,34 @@
+{
+  "$schema": "https://code.claude.com/schemas/plugin-v1.json",
+  "name": "blaze-craft",
+  "version": "1.0.0",
+  "description": "Two-skill engineering pack: api-craft (wire contract design — REST/GraphQL/RPC choice, versioning, error envelopes, pagination, idempotency, rate limiting, webhooks, SDK ergonomics, OpenAPI as source-of-truth) + mobile-craft (mobile orchestration and decision-making — stack-choice phase, cross-runtime patterns for offline/push/deep-linking, cross-store shipping discipline). Sits above implementation specialists: hands off API handlers to fullstack-engineer / cloudflare, hands off Apple-platform work to ios-craft, RN to react-native-foundations, Expo to expo. Includes 2 cross-cutting agents (api-contract-reviewer, mobile-stack-decider) and 7 slash commands.",
+  "author": {
+    "name": "Austin Humphrey",
+    "email": "humphrey.austin20@gmail.com",
+    "url": "https://github.com/Blaze-sports-Intel"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Blaze-sports-Intel/blaze-craft",
+  "repository": "https://github.com/Blaze-sports-Intel/blaze-craft",
+  "keywords": [
+    "api-design",
+    "api-contract",
+    "openapi",
+    "rest",
+    "graphql",
+    "webhook",
+    "rate-limit",
+    "idempotency",
+    "pagination",
+    "mobile",
+    "ios",
+    "android",
+    "react-native",
+    "expo",
+    "flutter",
+    "stack-choice",
+    "blaze-sports-intel",
+    "marketplace"
+  ]
+}

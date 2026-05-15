@@ -1,0 +1,21 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace-v1.json",
+  "name": "blaze-craft-marketplace",
+  "version": "1.0.0",
+  "description": "Two-skill engineering pack for Claude Code: api-craft (wire contract design) + mobile-craft (mobile orchestration and decision-making).",
+  "owner": {
+    "name": "Blaze Sports Intel",
+    "url": "https://github.com/Blaze-sports-Intel"
+  },
+  "plugins": [
+    {
+      "name": "blaze-craft",
+      "description": "API contract design and mobile orchestration. api-craft owns wire contracts (REST/GraphQL/RPC choice, versioning, error envelopes, pagination, idempotency, rate limiting, webhook contracts, SDK ergonomics, OpenAPI). mobile-craft owns mobile decision and orchestration (stack-choice phase, cross-runtime patterns, cross-store shipping discipline). Hands off platform implementation to ios-craft, react-native-foundations, expo, and fullstack-engineer.",
+      "source": {
+        "type": "git-subdir",
+        "url": "https://github.com/Blaze-sports-Intel/blaze-craft",
+        "path": "plugins/blaze-craft"
+      }
+    }
+  ]
+}
